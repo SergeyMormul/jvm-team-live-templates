@@ -1,2 +1,2 @@
 # Groovy Routine
-Describes live templates which are good to use in routine code writing.
+Describes live templates which are good to use during routine code writing in Groovy.
