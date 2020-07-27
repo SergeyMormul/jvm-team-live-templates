@@ -1,3 +1,92 @@
 # Spock Testing
 Describes live templates which are good to use in creating tests within [Spock Framework](http://spockframework.org/spock/docs/1.3/all_in_one.html).
 
+`|` shows the final place of the cursor.
+
+<table>
+  <tr>
+    <th>Template</th><th>Description and Enter points</th><th>Example of the result</th>
+  </tr>
+  <tr>
+    <td><code>set</code></td>
+    <td>Creates a <code>setup</code> method.</td>
+    <td>
+      <pre lang='Groovy'>
+def setup() {
+    |
+}</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>test</code></td>
+    <td>Creates an empty test. Adds an empty line below test declaration.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Test name</li>
+      </ol>
+    </td>
+    <td>
+      <pre lang='Groovy'>
+def 'exercise a repository method'() {
+<br/>
+    |
+}</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>gi</code></td>
+    <td>Creates a <code>given:</code> lable.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Lable description</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+given: 'a valid test data'
+|</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>an</code></td>
+    <td>Creates an <code>and:</code> lable.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Lable description</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+and: 'an additional test data'
+|</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>wh</code></td>
+    <td>Creates a <code>when:</code> lable.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Lable description</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+when: 'tested method is called'
+|</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>th</code></td>
+    <td>Creates a <code>then:</code> lable.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Lable description</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+then: 'the repository is called as expected'
+|</pre>
+    </td>
+  </tr>
+</table>
