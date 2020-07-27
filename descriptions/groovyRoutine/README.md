@@ -43,7 +43,6 @@ Type fieldName
   <tr>
     <td><code>fs</code></td>
     <td>Creates a `String` field declaration. Adds an extra empty line below.<br/>
-      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
@@ -63,7 +62,6 @@ String fieldName
   <tr>
     <td><code>fi</code></td>
     <td>Creates an `int` field declaration. Adds an extra empty line below.<br/>
-      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
