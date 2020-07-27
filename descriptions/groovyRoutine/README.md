@@ -1,7 +1,9 @@
 # Groovy Routine
 Describes live templates which are good to use during routine code writing in Groovy.
 
-Eddit point is a point where a developer has to enter something: type, name, comment, etc. Each point is invoked in order as described below for each specific template.
+Edit point is a point where a developer has to enter something: type, name, comment, etc. Each point is invoked in order as described below for each specific template.
+
+`|` shows the final place of the cursor.
 
 <table>
   <tr>
@@ -10,19 +12,17 @@ Eddit point is a point where a developer has to enter something: type, name, com
   <tr>
     <td><code>def</code></td>
     <td>Creates a variable declaration. <br/>
-      In the end cursor is right after the value.<br/>
       Enter points:<br/>
       <ol>
         <li>Variable name</li>
         <li>Value</li>
       </ol>
     </td>
-    <td><pre lang='Groovy'>def name = 'John Doe'</pre></td>
+    <td><pre lang='Groovy'>def name = 'John Doe'|</pre></td>
   </tr>
   <tr>
     <td><code>f</code></td>
     <td>Creates a general field declaration. Suggests field type. Adds an extra empty line below.<br/>
-      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Type</li>
@@ -36,7 +36,8 @@ Eddit point is a point where a developer has to enter something: type, name, com
  * Groovydoc about field.
  */
 Type fieldName
-      </pre>
+<br/>
+|</pre>
     </td>
   </tr>
   <tr>
@@ -55,7 +56,8 @@ Type fieldName
  * Groovydoc about field.
  */
 String fieldName
-      </pre>
+<br/>
+|</pre>
     </td>
   </tr>
   <tr>
@@ -74,7 +76,8 @@ String fieldName
  * Groovydoc about field.
  */
 int fieldName
-      </pre>
+<br/>
+|</pre>
     </td>
   </tr>
 </table>

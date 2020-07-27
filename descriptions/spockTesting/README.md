@@ -1,6 +1,8 @@
 # Spock Testing
 Describes live templates which are good to use in creating tests within [Spock Framework](http://spockframework.org/spock/docs/1.3/all_in_one.html).
 
+Edit point is a point where a developer has to enter something: type, name, comment, etc. Each point is invoked in order as described below for each specific template.
+
 `|` shows the final place of the cursor.
 
 <table>
