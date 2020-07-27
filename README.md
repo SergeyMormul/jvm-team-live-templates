@@ -11,9 +11,7 @@ Working on several projects on Groovy I noticed a lot of routine actions which w
 
 ## Installation
 1. Clone the project to a local directory
-```
-git clone https://github.com/SergeyMormul/jvm-team-live-templates
-```
+<br/>```git clone https://github.com/SergeyMormul/jvm-team-live-templates```
 1. Start IntelliJ IDEA
 1. Import the settings from `JvmTeamLiveTemplates.zip` into IntelliJ following the instructions [here](https://www.jetbrains.com/help/idea/sharing-live-templates.html).
 
