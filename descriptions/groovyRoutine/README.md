@@ -9,7 +9,8 @@ Eddit point is a point where a developer has to enter something: type, name, com
   </tr>
   <tr>
     <td><code>def</code></td>
-    <td>Creates a variable declaration.<br/>
+    <td>Creates a variable declaration. <br/>
+      In the end cursor is right after the value.<br/>
       Enter points:<br/>
       <ol>
         <li>Variable name</li>
@@ -20,7 +21,8 @@ Eddit point is a point where a developer has to enter something: type, name, com
   </tr>
   <tr>
     <td><code>f</code></td>
-    <td>Creates a general field declaration. Suggests field type. Adds addition line below.<br/>
+    <td>Creates a general field declaration. Suggests field type. Adds an extra empty line below.<br/>
+      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Type</li>
@@ -39,7 +41,8 @@ Type fieldName
   </tr>
   <tr>
     <td><code>fs</code></td>
-    <td>Creates a `String` field declaration. Adds addition line below.<br/>
+    <td>Creates a `String` field declaration. Adds an extra empty line below.<br/>
+      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
@@ -57,7 +60,8 @@ String fieldName
   </tr>
   <tr>
     <td><code>fi</code></td>
-    <td>Creates an `int` field declaration. Adds addition line below.<br/>
+    <td>Creates an `int` field declaration. Adds an extra empty line below.<br/>
+      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
