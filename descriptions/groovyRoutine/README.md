@@ -1,2 +1,80 @@
 # Groovy Routine
 Describes live templates which are good to use during routine code writing in Groovy.
+
+Eddit point is a point where a developer has to enter something: type, name, comment, etc. Each point is invoked in order as described below for each specific template.
+
+<table>
+  <tr>
+    <th>Template</th><th>Description and Enter points</th><th>Example of the result</th>
+  </tr>
+  <tr>
+    <td><code>def</code></td>
+    <td>Creates a variable declaration. <br/>
+      In the end cursor is right after the value.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Variable name</li>
+        <li>Value</li>
+      </ol>
+    </td>
+    <td><pre lang='Groovy'>def name = 'John Doe'</pre></td>
+  </tr>
+  <tr>
+    <td><code>f</code></td>
+    <td>Creates a general field declaration. Suggests field type. Adds an extra empty line below.<br/>
+      In the end cursor is below the added empty line.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Type</li>
+        <li>Name</li>
+        <li>Groovydoc comment</li>
+      </ol>
+    </td>
+    <td>
+      <pre lang='Groovy'>
+/**
+ * Groovydoc about field.
+ */
+Type fieldName
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>fs</code></td>
+    <td>Creates a `String` field declaration. Adds an extra empty line below.<br/>
+      In the end cursor is below the added empty line.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Name</li>
+        <li>Groovydoc comment</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+/**
+ * Groovydoc about field.
+ */
+String fieldName
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>fi</code></td>
+    <td>Creates an `int` field declaration. Adds an extra empty line below.<br/>
+      In the end cursor is below the added empty line.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Name</li>
+        <li>Groovydoc comment</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+/**
+ * Groovydoc about field.
+ */
+int fieldName
+      </pre>
+    </td>
+  </tr>
+</table>
