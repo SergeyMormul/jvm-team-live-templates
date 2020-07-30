@@ -90,11 +90,9 @@ UUID id
     <td><code>ver</code></td>
     <td>Creates a document version field declaration. Adds an extra empty line below.</td>
     <td>
-      Wrapped
       <pre lang='Groovy'>
 /**
- * A version field used to 
-     implement optimistic locking on entities.
+ * A version field used to implement optimistic locking on entities.
  */
 @Version
 @Field( FieldNames.VERSION )
@@ -122,7 +120,7 @@ Long version
 @SuppressWarnings( 'GroovyUnusedDeclaration' )
 @Field( FieldNames.MIME_TYPE )
 final String mimeType = 
-      'application/bson;tl-type=user-document;version=1.0.0'
+      'application/bson;tl-type=atribute-value;version=1.0.0'
 <br/>
 |</pre>
     </td>
