@@ -22,7 +22,7 @@ Edit point is a point where a developer has to enter something: type, name, comm
   </tr>
   <tr>
     <td><code>f</code></td>
-    <td>Creates a general field declaration. Suggests field type. Adds an extra empty line below.<br/>
+    <td>Creates a general field declaration. Suggests a field type. Adds an extra empty line below.<br/>
       Enter points:<br/>
       <ol>
         <li>Type</li>
@@ -43,7 +43,6 @@ Type fieldName
   <tr>
     <td><code>fs</code></td>
     <td>Creates a <code>String</code> field declaration. Adds an extra empty line below.<br/>
-      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
@@ -63,7 +62,6 @@ String fieldName
   <tr>
     <td><code>fi</code></td>
     <td>Creates an <code>int</code> field declaration. Adds an extra empty line below.<br/>
-      In the end cursor is below the added empty line.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>

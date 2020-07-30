@@ -19,6 +19,7 @@ Working on several projects on Groovy I noticed a lot of routine actions which w
 The settings contains following groups of live templates:
 * [Groovy Routine](descriptions/groovyRoutine/README.md)
 * [Mongo Documents](descriptions/mongoDocuments/README.md)
+* [JSON Groovy Fields](descriptions/jsonGroovyFields/README.md)
 * [Spock Testing](descriptions/spockTesting/README.md)
 
 ## Enjoy your codding!

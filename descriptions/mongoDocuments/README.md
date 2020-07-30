@@ -2,7 +2,9 @@
 Describes live templates which are good to use in creating data classes which describes MongoDB collections.
 
 Very specific templates, may be not useful in general, bu still goo for creating a data class to represent MongoDB collection.
+
 > Currently autoimport of an annotation is not supported.
+
 > Wrapped - marked as that are wrapped examples to keep proper readability of the table.
 
 `|` shows the final place of the cursor.
@@ -34,8 +36,8 @@ Very specific templates, may be not useful in general, bu still goo for creating
     <td>
       Wrapped
       <pre lang='Groovy'>
-@CompoundIndex( name = 'user_date', 
-                def = "{ 'externaUserId': 1, 'dateCode': 1| }", 
+@CompoundIndex( name = 'index_name', 
+                def = "{ 'first-field': 1, 'second-field': 1| }", 
                 unique = true )</pre>
     </td>
   </tr>
@@ -127,7 +129,7 @@ final String mimeType =
   </tr>
   <tr>
     <td><code>df</code></td>
-    <td>Creates a general document field. Suggests field type. Adds an extra empty line below.<br/>
+    <td>Creates a general document field. Suggests a field type. Adds an extra empty line below.<br/>
       Enter points:<br/>
       <ol>
         <li>Type</li>
@@ -139,10 +141,10 @@ final String mimeType =
     <td>
       <pre lang='Groovy'>
 /**
- * Represents the date the document is related to.
+ * Groovydoc about the field.
  */
-@Field( FieldNames.TYPE )
-Type typeField
+@Field( FieldNames.VALUE )
+Type filedName
 <br/>
 |</pre>
     </td>
@@ -160,10 +162,10 @@ Type typeField
     <td>
       <pre lang='Groovy'>
 /**
- * Represents the langguage the document is related to.
+ * Groovydoc about the field.
  */
-@Field( FieldNames.LANGUAGE )
-String language
+@Field( FieldNames.VALUE )
+String fieldName
 <br/>
 |</pre>
     </td>
@@ -179,14 +181,12 @@ String language
       </ol>
     </td>
     <td>
-      Wrapped
       <pre lang='Groovy'>
 /**
- * Represents the date the document 
-       is related to in milliseconds since Epoch.
+ * Groovydoc about the field.
  */
-@Field( FieldNames.DATE_CODE )
-long dateCode
+@Field( FieldNames.VALUE )
+long fieldName
 <br/>
 |</pre>
     </td>
