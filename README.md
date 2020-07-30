@@ -22,4 +22,4 @@ The settings contains following groups of live templates:
 * [JSON Groovy Fields](descriptions/jsonGroovyFields/README.md)
 * [Spock Testing](descriptions/spockTesting/README.md)
 
-## Enjoy your codding!
+## Enjoy your coding!
