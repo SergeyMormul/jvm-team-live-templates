@@ -37,10 +37,10 @@ def 'exercise a repository method'() {
   </tr>
   <tr>
     <td><code>gi</code></td>
-    <td>Creates a <code>given:</code> lable.<br/>
+    <td>Creates a <code>given:</code> label.<br/>
       Enter points:<br/>
       <ol>
-        <li>Lable description</li>
+        <li>Label description</li>
       </ol>
     </td>
     <td>
@@ -51,10 +51,10 @@ given: 'a valid test data'
   </tr>
   <tr>
     <td><code>an</code></td>
-    <td>Creates an <code>and:</code> lable.<br/>
+    <td>Creates an <code>and:</code> label.<br/>
       Enter points:<br/>
       <ol>
-        <li>Lable description</li>
+        <li>Label description</li>
       </ol>
     </td>
     <td>
@@ -65,10 +65,10 @@ and: 'an additional test data'
   </tr>
   <tr>
     <td><code>wh</code></td>
-    <td>Creates a <code>when:</code> lable.<br/>
+    <td>Creates a <code>when:</code> label.<br/>
       Enter points:<br/>
       <ol>
-        <li>Lable description</li>
+        <li>Label description</li>
       </ol>
     </td>
     <td>
@@ -79,10 +79,10 @@ when: 'tested method is called'
   </tr>
   <tr>
     <td><code>th</code></td>
-    <td>Creates a <code>then:</code> lable.<br/>
+    <td>Creates a <code>then:</code> label.<br/>
       Enter points:<br/>
       <ol>
-        <li>Lable description</li>
+        <li>Label description</li>
       </ol>
     </td>
     <td>
