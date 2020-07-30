@@ -39,7 +39,7 @@ Very specific templates, may be not useful in general, bu still goo for creating
   </tr>
   <tr>
     <td><code>F</code></td>
-    <td>Creates an nested imutable class to describe document field names.</td>
+    <td>Creates a nested imutable class to describe document field names.</td>
     <td>
       <pre lang='Groovy'>
 /**
