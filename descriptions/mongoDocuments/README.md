@@ -3,6 +3,7 @@ Describes live templates which are good to use in creating data classes which de
 
 Very specific templates, may be not useful in general, bu still goo for creating a data class to represent MongoDB collection.
 > Currently autoimport of an annotation is not supported.
+> Wrapped - marked as that are wrapped examples to keep proper readability of the table.
 
 `|` shows the final place of the cursor.
 
@@ -31,8 +32,11 @@ Very specific templates, may be not useful in general, bu still goo for creating
       </ol>
     </td>
     <td>
+      Wrapped
       <pre lang='Groovy'>
-@CompoundIndex( name = 'user_date', def = "{ 'externaUserId': 1, 'dateCode': 1| }", unique = true )</pre>
+@CompoundIndex( name = 'user_date', 
+                def = "{ 'externaUserId': 1, 'dateCode': 1| }", 
+                unique = true )</pre>
     </td>
   </tr>
   <tr>
@@ -86,9 +90,11 @@ UUID id
     <td><code>ver</code></td>
     <td>Creates a document version field declaration. Adds an extra empty line below.</td>
     <td>
+      Wrapped
       <pre lang='Groovy'>
 /**
- * A version field used to implement optimistic locking on entities.
+ * A version field used to 
+     implement optimistic locking on entities.
  */
 @Version
 @Field( FieldNames.VERSION )
@@ -106,14 +112,17 @@ Long version
       </ol>
     </td>
     <td>
+      Wrapped
       <pre lang='Groovy'>
 /**
- * Indicates the schema that this structure adheres to using the standard mime-type notation.
+ * Indicates the schema that this structure 
+            adheres to using the standard mime-type notation.
  * Typically left to its default value.
  */
 @SuppressWarnings( 'GroovyUnusedDeclaration' )
 @Field( FieldNames.MIME_TYPE )
-final String mimeType = 'application/bson;tl-type=user-document;version=1.0.0'
+final String mimeType = 
+      'application/bson;tl-type=user-document;version=1.0.0'
 <br/>
 |</pre>
     </td>
@@ -172,9 +181,11 @@ String language
       </ol>
     </td>
     <td>
+      Wrapped
       <pre lang='Groovy'>
 /**
- * Represents the date the document is related to in milliseconds since Epoch.
+ * Represents the date the document 
+       is related to in milliseconds since Epoch.
  */
 @Field( FieldNames.DATE_CODE )
 long dateCode
