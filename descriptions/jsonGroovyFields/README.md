@@ -46,13 +46,13 @@ Type fieldName
       </td>
       <td>
         <pre lang='Groovy'>
-  /**
-   * Groovydoc about field.
-   */
-  @JsonProperty( 'annotation-value' )
-  List<GenericType> fieldName
-  <br/>
-  |</pre>
+ /**
+  * Groovydoc about field.
+  */
+ @JsonProperty( 'annotation-value' )
+ List<GenericType> fieldName
+ <br/>
+ |</pre>
       </td>
     </tr>
   <tr>
