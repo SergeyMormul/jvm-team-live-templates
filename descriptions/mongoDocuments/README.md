@@ -32,9 +32,7 @@ Very specific templates, may be not useful in general, bu still goo for creating
     </td>
     <td>
       <pre lang='Groovy'>
-@CompoundIndex( name = 'user_date', 
-                def = "{ 'externaUserId': 1, 'dateCode': 1| }", 
-                unique = true )</pre>
+@CompoundIndex( name = 'user_date', def = "{ 'externaUserId': 1, 'dateCode': 1| }", unique = true )</pre>
     </td>
   </tr>
   <tr>
@@ -110,8 +108,7 @@ Long version
     <td>
       <pre lang='Groovy'>
 /**
- * Indicates the schema that this structure 
- * adheres to using the standard mime-type notation.
+ * Indicates the schema that this structure adheres to using the standard mime-type notation.
  * Typically left to its default value.
  */
 @SuppressWarnings( 'GroovyUnusedDeclaration' )
