@@ -104,30 +104,6 @@ Long version
     </td>
   </tr>
   <tr>
-    <td><code>tltype</code></td>
-    <td>Creates a standard tl-type field declaration. Adds an extra empty line below.<br/>
-      Enter points:<br/>
-      <ol>
-        <li>TL type atribute value</li>
-      </ol>
-    </td>
-    <td>
-      Wrapped
-      <pre lang='Groovy'>
-/**
- * Indicates the schema that this structure 
-            adheres to using the standard mime-type notation.
- * Typically left to its default value.
- */
-@SuppressWarnings( 'GroovyUnusedDeclaration' )
-@Field( FieldNames.MIME_TYPE )
-final String mimeType = 
-      'application/bson;tl-type=atribute-value;version=1.0.0'
-<br/>
-|</pre>
-    </td>
-  </tr>
-  <tr>
     <td><code>df</code></td>
     <td>Creates a general document field. Suggests a field type. Adds an extra empty line below.<br/>
       Enter points:<br/>

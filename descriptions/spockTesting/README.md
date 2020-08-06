@@ -29,7 +29,7 @@ def setup() {
     </td>
     <td>
       <pre lang='Groovy'>
-def 'exercise a repository method'() {
+def 'test name'() {
 <br/>
     |
 }</pre>
@@ -45,7 +45,7 @@ def 'exercise a repository method'() {
     </td>
     <td>
     <pre lang='Groovy'>
-given: 'a valid test data'
+given: 'label description'
 |</pre>
     </td>
   </tr>
@@ -59,12 +59,12 @@ given: 'a valid test data'
     </td>
     <td>
     <pre lang='Groovy'>
-and: 'an additional test data'
+and: 'label description'
 |</pre>
     </td>
   </tr>
   <tr>
-    <td><code>wh</code></td>
+    <td><code>wn</code></td>
     <td>Creates a <code>when:</code> label.<br/>
       Enter points:<br/>
       <ol>
@@ -73,7 +73,7 @@ and: 'an additional test data'
     </td>
     <td>
     <pre lang='Groovy'>
-when: 'tested method is called'
+when: 'label description'
 |</pre>
     </td>
   </tr>
@@ -87,8 +87,23 @@ when: 'tested method is called'
     </td>
     <td>
     <pre lang='Groovy'>
-then: 'the repository is called as expected'
+then: 'label description'
 |</pre>
     </td>
+  </tr>
+  <tr>
+      <td><code>with</code></td>
+      <td>Creates a <code>with</code> block for verification.<br/>
+        Enter points:<br/>
+        <ol>
+          <li>Variable name</li>
+        </ol>
+      </td>
+      <td>
+        <pre lang='Groovy'>
+with( variableName ) {
+    |
+}</pre>
+      </td>
   </tr>
 </table>
