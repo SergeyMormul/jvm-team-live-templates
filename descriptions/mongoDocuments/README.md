@@ -3,8 +3,6 @@ Describes live templates which are good to use in creating data classes which de
 
 Very specific templates, may be not useful in general, bu still goo for creating a data class to represent MongoDB collection.
 
-> Currently, autoimport of an annotation is not supported.
-
 > Wrapped - marked as that are wrapped examples to keep proper readability of the table.
 
 `|` shows the final place of the cursor.
