@@ -25,7 +25,7 @@ Edit point is a point where a developer has to enter something: type, name, comm
     <td>
       <pre lang='Groovy'>
 /**
- * Groovydoc about field.
+ * Groovydoc comment.
  */
 @JsonProperty( 'annotation-value' )
 Type fieldName
@@ -47,7 +47,7 @@ Type fieldName
       <td>
         <pre lang='Groovy'>
  /**
-  * Groovydoc about field.
+  * Groovydoc comment.
   */
  @JsonProperty( 'annotation-value' )
  List&lt;GenericType&gt; fieldName
@@ -68,7 +68,7 @@ Type fieldName
     <td>
     <pre lang='Groovy'>
 /**
- * Groovydoc about field.
+ * Groovydoc comment.
  */
 @JsonProperty( 'annotation-value' )
 String fieldName
@@ -89,7 +89,7 @@ String fieldName
     <td>
     <pre lang='Groovy'>
 /**
- * Groovydoc about field.
+ * Groovydoc comment.
  */
 @JsonProperty( 'annotation-value' )
 UUID fieldName
