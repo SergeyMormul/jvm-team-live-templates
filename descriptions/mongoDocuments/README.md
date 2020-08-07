@@ -3,7 +3,7 @@ Describes live templates which are good to use in creating data classes which de
 
 Very specific templates, may be not useful in general, bu still goo for creating a data class to represent MongoDB collection.
 
-> Currently autoimport of an annotation is not supported.
+> Currently, autoimport of an annotation is not supported.
 
 > Wrapped - marked as that are wrapped examples to keep proper readability of the table.
 
@@ -42,8 +42,8 @@ Very specific templates, may be not useful in general, bu still goo for creating
     </td>
   </tr>
   <tr>
-    <td><code>F</code></td>
-    <td>Creates a nested imutable class to describe document field names.</td>
+    <td><code>fnames</code></td>
+    <td>Creates a nested immutable class to describe document field names.</td>
     <td>
       <pre lang='Groovy'>
 /**
@@ -57,6 +57,21 @@ static final class FieldNames {
     |
 }</pre>
     </td>
+  </tr>
+  <tr>
+      <td><code>name</code></td>
+      <td>Creates a field name variable.<br/>
+      Creates an underlined capitalized field name based on the value.<br/>
+        Enter points:<br/>
+        <ol>
+          <li>Value of the field name</li>
+        </ol>
+      </td>
+      <td>
+        <pre lang='Groovy'>
+public static final String FIELD_NAME = 'field-name'
+|</pre>
+      </td>
   </tr>
   <tr>
     <td><code>ids</code></td>
@@ -117,7 +132,7 @@ Long version
     <td>
       <pre lang='Groovy'>
 /**
- * Groovydoc about the field.
+ * Groovydoc comment.
  */
 @Field( FieldNames.VALUE )
 Type filedName
@@ -138,7 +153,7 @@ Type filedName
     <td>
       <pre lang='Groovy'>
 /**
- * Groovydoc about the field.
+ * Groovydoc comment.
  */
 @Field( FieldNames.VALUE )
 String fieldName
@@ -159,7 +174,7 @@ String fieldName
     <td>
       <pre lang='Groovy'>
 /**
- * Groovydoc about the field.
+ * Groovydoc comment.
  */
 @Field( FieldNames.VALUE )
 long fieldName
@@ -168,3 +183,22 @@ long fieldName
     </td>
   </tr>
 </table>
+
+## Surroundings
+Describes the surround live templates for mongo documents. Surround live templates can be invoked by short cut `Ctr+Alt+J`.
+
+`|` shows the place of the cursor.
+
+### Compound indexes
+To surround the annotation `@CompoundIndex` by the annotation `@CompoundIndexes`, put a cursor at the line of the former and press `Ctr+Alt+J` and choose `CIS` template. 
+Then you can use `ci` live template to add another `@CompoundIndex`. 
+
+**Before**
+```groovy
+@CompoundIndex( name = 'index_name', def = "{ 'first-field': 1, 'second-field': 1 }", unique = true )|
+```
+**After**
+```groovy
+@CompoundIndexes( [@CompoundIndex( name = 'index_name', def = "{ 'first-field': 1, 'second-field': 1 }", unique = true ),
+        |] )
+```

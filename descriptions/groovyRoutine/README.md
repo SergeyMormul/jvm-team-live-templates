@@ -21,6 +21,27 @@ Edit point is a point where a developer has to enter something: type, name, comm
     <td><pre lang='Groovy'>def name = 'John Doe'|</pre></td>
   </tr>
   <tr>
+      <td><code>cons</code></td>
+      <td>Creates a constant.<br/>
+        Creates an underlined capitalized constant name based on the value.<br/>
+        Adds an extra empty line below.
+        Enter points:<br/>
+        <ol>
+          <li>Value of the constant</li>
+          <li>Groovydoc comment</li>
+        </ol>
+      </td>
+      <td>
+        <pre lang='Groovy'>
+/**
+ * Groovydoc comment.
+ */
+private static final String CONSTANT = 'constant'
+<br/>
+|</pre>
+      </td>
+  </tr>
+  <tr>
     <td><code>f</code></td>
     <td>Creates a general field declaration. Suggests a field type. Adds an extra empty line below.<br/>
       Enter points:<br/>
@@ -33,7 +54,7 @@ Edit point is a point where a developer has to enter something: type, name, comm
     <td>
       <pre lang='Groovy'>
 /**
- * Groovydoc about field.
+ * Groovydoc comment.
  */
 Type fieldName
 <br/>
@@ -52,7 +73,7 @@ Type fieldName
     <td>
     <pre lang='Groovy'>
 /**
- * Groovydoc about field.
+ * Groovydoc comment.
  */
 String fieldName
 <br/>
@@ -71,7 +92,7 @@ String fieldName
     <td>
     <pre lang='Groovy'>
 /**
- * Groovydoc about field.
+ * Groovydoc comment.
  */
 int fieldName
 <br/>
