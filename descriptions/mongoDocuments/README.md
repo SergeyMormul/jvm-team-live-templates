@@ -61,10 +61,10 @@ static final class FieldNames {
   <tr>
       <td><code>name</code></td>
       <td>Creates a field name variable.<br/>
-      Creates an underlined capitalized field name based on the value.<br/>
+      Creates an underlined capitalized name of the variable based on the value.<br/>
         Enter points:<br/>
         <ol>
-          <li>Value of the field name</li>
+          <li>Value of the field name variable</li>
         </ol>
       </td>
       <td>
@@ -190,6 +190,8 @@ Describes the surround live templates for mongo documents. Surround live templat
 `|` shows the place of the cursor.
 
 ### Compound indexes
+`CIS`
+
 To surround the annotation `@CompoundIndex` by the annotation `@CompoundIndexes`, put a cursor at the line of the former and press `Ctr+Alt+J` and choose `CIS` template. 
 Then you can use `ci` live template to add another `@CompoundIndex`. 
 

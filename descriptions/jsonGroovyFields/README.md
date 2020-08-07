@@ -3,7 +3,7 @@ Describes live templates which are good for creating `@JsonProperty` annotated f
 
 Edit point is a point where a developer has to enter something: type, name, comment, etc. Each point is invoked in order as described below for each specific template.
 
-> Currently autoimport of an annotation is not supported.
+> Currently, autoimport of an annotation is not supported.
 
 `|` shows the final place of the cursor.
 
@@ -50,7 +50,7 @@ Type fieldName
   * Groovydoc about field.
   */
  @JsonProperty( 'annotation-value' )
- List<GenericType> fieldName
+ List&lt;GenericType&gt; fieldName
  <br/>
  |</pre>
       </td>
