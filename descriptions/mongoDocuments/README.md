@@ -3,7 +3,7 @@ Describes live templates which are good to use in creating data classes which de
 
 Very specific templates, may be not useful in general, bu still goo for creating a data class to represent MongoDB collection.
 
-> Wrapped - marked as that are wrapped examples to keep proper readability of the table.
+> Wrapped - marked as that are wrapped examples to keep proper readability of the whole table.
 
 `|` shows the final place of the cursor.
 
@@ -22,6 +22,16 @@ Very specific templates, may be not useful in general, bu still goo for creating
     </td>
   </tr>
   <tr>
+    <td><code>ciopt</code></td>
+    <td>Creates an optimistic concurrency compound index annotation.</td>
+    <td>
+      Wrapped: the result will be in a line.
+      <pre lang='Groovy'>
+@CompoundIndex( name = 'optimistic_concurrency_idx', 
+                def = "{ '_id': 1, 'version': 1 }" )
+    </td>
+  </tr>
+  <tr>
     <td><code>ci</code></td>
     <td>Creates a compound index annotation.<br/>
       Enter points:<br/>
@@ -32,7 +42,7 @@ Very specific templates, may be not useful in general, bu still goo for creating
       </ol>
     </td>
     <td>
-      Wrapped
+      Wrapped: the result will be in a line.
       <pre lang='Groovy'>
 @CompoundIndex( name = 'index_name', 
                 def = "{ 'first-field': 1, 'second-field': 1| }", 
