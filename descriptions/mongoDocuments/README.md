@@ -28,7 +28,7 @@ Very specific templates, may be not useful in general, bu still goo for creating
       Wrapped: the result will be in a line.
       <pre lang='Groovy'>
 @CompoundIndex( name = 'optimistic_concurrency_idx', 
-                def = "{ '_id': 1, 'version': 1 }" )
+                def = "{ '_id': 1, 'version': 1 }" )</pre>
     </td>
   </tr>
   <tr>
