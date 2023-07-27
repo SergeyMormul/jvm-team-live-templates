@@ -21,5 +21,6 @@ The settings contain following groups of live templates:
 * [Mongo Documents](descriptions/mongoDocuments/README.md)
 * [JSON Groovy Fields](descriptions/jsonGroovyFields/README.md)
 * [Spock Testing](descriptions/spockTesting/README.md)
+* [JUnit Testing](descriptions/junitTesting/README.md)
 
 ## Enjoy your coding!
