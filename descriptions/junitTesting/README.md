@@ -37,7 +37,7 @@ void test_name() {
     </td>
     <td>
     <pre lang='Java'>
-var myClass = Mockito.mock( MyClass.class )
+var myClass = Mockito.mock( MyClass.class );
 |</pre>
     </td>
   </tr>

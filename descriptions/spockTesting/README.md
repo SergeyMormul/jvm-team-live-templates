@@ -121,16 +121,9 @@ with( variableName ) {
   </tr>
   <tr>
     <td><code>sut</code></td>
-    <td>Creates a variable for a subject under test.<br/>
-      Enter points:<br/>
-      <ol>
-        <li>The value</li>
-      </ol>
-    </td>
+    <td>Creates a variable for a subject under test.</td>
     <td>
-    <pre lang='Groovy'>
-def myClass = new MyClass()
-|</pre>
+    <pre lang='Groovy'>def sut = |</pre>
     </td>
   </tr>
 </table>

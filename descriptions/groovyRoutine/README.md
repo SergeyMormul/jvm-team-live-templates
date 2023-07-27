@@ -21,7 +21,7 @@ Edit point is a point where a developer has to enter something: type, name, comm
     <td><pre lang='Groovy'>def name = 'John Doe'|</pre></td>
   </tr>
   <tr>
-      <td><code>cons</code></td>
+      <td><code>const</code></td>
       <td>Creates a constant.<br/>
         Creates an underlined capitalized constant name based on the value.<br/>
         Enter points:<br/>

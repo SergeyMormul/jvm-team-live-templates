@@ -16,11 +16,12 @@ Working on several projects on Groovy I noticed a lot of routine actions which w
 1. Import the settings from `JvmTeamLiveTemplates.zip` into IntelliJ following the instructions [here](https://www.jetbrains.com/help/idea/sharing-live-templates.html).
 
 ## Content
-The settings contain following groups of live templates:
+The settings contain following groups of custom live templates:
 * [Groovy Routine](descriptions/groovyRoutine/README.md)
 * [Mongo Documents](descriptions/mongoDocuments/README.md)
 * [JSON Groovy Fields](descriptions/jsonGroovyFields/README.md)
 * [Spock Testing](descriptions/spockTesting/README.md)
 * [JUnit Testing](descriptions/junitTesting/README.md)
+* [Java](descriptions/java/README.md)
 
 ## Enjoy your coding!
