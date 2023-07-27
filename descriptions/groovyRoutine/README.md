@@ -24,7 +24,6 @@ Edit point is a point where a developer has to enter something: type, name, comm
       <td><code>cons</code></td>
       <td>Creates a constant.<br/>
         Creates an underlined capitalized constant name based on the value.<br/>
-        Adds an extra empty line below.
         Enter points:<br/>
         <ol>
           <li>Value of the constant</li>
@@ -37,13 +36,12 @@ Edit point is a point where a developer has to enter something: type, name, comm
  * Groovydoc comment.
  */
 private static final String CONSTANT = 'constant'
-<br/>
 |</pre>
       </td>
   </tr>
   <tr>
     <td><code>f</code></td>
-    <td>Creates a general field declaration. Suggests a field type. Adds an extra empty line below.<br/>
+    <td>Creates a general field declaration. Suggests a field type.<br/>
       Enter points:<br/>
       <ol>
         <li>Type</li>
@@ -57,13 +55,12 @@ private static final String CONSTANT = 'constant'
  * Groovydoc comment.
  */
 Type fieldName
-<br/>
 |</pre>
     </td>
   </tr>
   <tr>
     <td><code>fs</code></td>
-    <td>Creates a <code>String</code> field declaration. Adds an extra empty line below.<br/>
+    <td>Creates a <code>String</code> field declaration.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
@@ -76,13 +73,12 @@ Type fieldName
  * Groovydoc comment.
  */
 String fieldName
-<br/>
 |</pre>
     </td>
   </tr>
   <tr>
     <td><code>fi</code></td>
-    <td>Creates an <code>int</code> field declaration. Adds an extra empty line below.<br/>
+    <td>Creates an <code>int</code> field declaration.<br/>
       Enter points:<br/>
       <ol>
         <li>Name</li>
@@ -95,7 +91,6 @@ String fieldName
  * Groovydoc comment.
  */
 int fieldName
-<br/>
 |</pre>
     </td>
   </tr>

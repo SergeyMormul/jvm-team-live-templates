@@ -83,7 +83,7 @@ public static final String FIELD_NAME = 'field-name'
   </tr>
   <tr>
     <td><code>ids</code></td>
-    <td>Creates a document id field of type <code>String</code>. Adds an extra empty line below.</td>
+    <td>Creates a document id field of type <code>String</code>.</td>
     <td>
       <pre lang='Groovy'>
 /**
@@ -91,14 +91,12 @@ public static final String FIELD_NAME = 'field-name'
  */
 @Id
 @Field( FieldNames.ID )
-String id
-<br/>
-|</pre>
+String id|</pre>
     </td>
   </tr>
   <tr>
     <td><code>idu</code></td>
-    <td>Creates a document id field of type <code>UUID</code>. Adds an extra empty line below.</td>
+    <td>Creates a document id field of type <code>UUID</code>.</td>
     <td>
       <pre lang='Groovy'>
 /**
@@ -106,14 +104,12 @@ String id
  */
 @Id
 @Field( FieldNames.ID )
-UUID id
-<br/>
-|</pre>
+UUID id|</pre>
     </td>
   </tr>
   <tr>
     <td><code>ver</code></td>
-    <td>Creates a document version field declaration. Adds an extra empty line below.</td>
+    <td>Creates a document version field declaration.</td>
     <td>
       <pre lang='Groovy'>
 /**
@@ -121,14 +117,12 @@ UUID id
  */
 @Version
 @Field( FieldNames.VERSION )
-Long version
-<br/>
-|</pre>
+Long version|</pre>
     </td>
   </tr>
   <tr>
     <td><code>df</code></td>
-    <td>Creates a general document field. Suggests a field type. Adds an extra empty line below.<br/>
+    <td>Creates a general document field. Suggests a field type.<br/>
       Enter points:<br/>
       <ol>
         <li>Type</li>
@@ -143,14 +137,12 @@ Long version
  * Groovydoc comment.
  */
 @Field( FieldNames.VALUE )
-Type filedName
-<br/>
-|</pre>
+Type filedName|</pre>
     </td>
   </tr>
   <tr>
     <td><code>dfs</code></td>
-    <td>Creates a <code>String</code> document field. Adds an extra empty line below.<br/>
+    <td>Creates a <code>String</code> document field.<br/>
       Enter points:<br/>
       <ol>
         <li>Name of the field</li>
@@ -164,14 +156,12 @@ Type filedName
  * Groovydoc comment.
  */
 @Field( FieldNames.VALUE )
-String fieldName
-<br/>
-|</pre>
+String fieldName|</pre>
     </td>
   </tr>
   <tr>
     <td><code>dfl</code></td>
-    <td>Creates a <code>long</code> document field. Adds an extra empty line below.<br/>
+    <td>Creates a <code>long</code> document field.<br/>
       Enter points:<br/>
       <ol>
         <li>Name of the field</li>
@@ -185,9 +175,7 @@ String fieldName
  * Groovydoc comment.
  */
 @Field( FieldNames.VALUE )
-long fieldName
-<br/>
-|</pre>
+long fieldName|</pre>
     </td>
   </tr>
 </table>

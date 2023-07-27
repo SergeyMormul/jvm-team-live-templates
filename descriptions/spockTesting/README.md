@@ -106,4 +106,31 @@ with( variableName ) {
 }</pre>
       </td>
   </tr>
+  <tr>
+    <td><code>mock</code></td>
+    <td>Creates a variable for a mocked object.<br/>
+      Ends at the variable name to allow fast editing.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>The method argument</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>def |myClass = Mock( MyClass )</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>sut</code></td>
+    <td>Creates a variable for a subject under test.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>The value</li>
+      </ol>
+    </td>
+    <td>
+    <pre lang='Groovy'>
+def myClass = new MyClass()
+|</pre>
+    </td>
+  </tr>
 </table>
