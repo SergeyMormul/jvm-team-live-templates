@@ -13,7 +13,7 @@ Edit point is a point where a developer has to enter something: type, name, comm
     <td><code>pf</code></td>
     <td>Creates a private final modifier.</td>
     <td>
-      <pre lang='Java'>private final</pre>
+      <pre lang='Java'>private final |</pre>
     </td>
   </tr>
   <tr>

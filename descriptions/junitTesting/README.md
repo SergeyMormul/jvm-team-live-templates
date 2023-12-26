@@ -29,7 +29,7 @@ void test_name() {
   <tr>
     <td><code>mock</code></td>
     <td>Creates a variable for a <code>Mockito</code> mocked object.<br/>
-        Omits .class in the variable name.<br/>
+        The variable name is defined by the method argument.<br/>
       Enter points:<br/>
       <ol>
         <li>The method argument</li>
@@ -44,8 +44,8 @@ var myClass = Mockito.mock( MyClass.class );
   <tr>
     <td><code>gmock</code></td>
     <td>Creates a test class field for a <code>Mockito</code> mocked object.<br/>
-      Omits .class in the variable name.<br/>
-      Class type is defined by the method argument.<br/>
+      The class type is defined by the method argument.<br/>
+      The variable name is defined by the method argument.<br/>
       Enter points:<br/>
       <ol>
         <li>The method argument</li>
