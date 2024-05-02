@@ -27,6 +27,23 @@ void test_name() {
     </td>
   </tr>
   <tr>
+    <td><code>ptest</code></td>
+    <td>Creates an empty parametrized test. Adds an empty line below test declaration.<br/>
+      Enter points:<br/>
+      <ol>
+        <li>Test name</li>
+      </ol>
+    </td>
+    <td>
+      <pre lang='Java'>
+@ParameterizedTest
+void test_name() {
+<br/>
+    |
+}</pre>
+    </td>
+  </tr>
+  <tr>
     <td><code>mock</code></td>
     <td>Creates a variable for a <code>Mockito</code> mocked object.<br/>
         The variable name is defined by the method argument.<br/>
