@@ -123,7 +123,7 @@ with( variableName ) {
     <td><code>sut</code></td>
     <td>Creates a variable for a subject under test.</td>
     <td>
-    <pre lang='Groovy'>def sut = |</pre>
+    <pre lang='Groovy'>def sut = new |</pre>
     </td>
   </tr>
 </table>

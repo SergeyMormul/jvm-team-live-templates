@@ -74,4 +74,23 @@ private final MyClass myClass = Mockito.mock( MyClass.class );
 |</pre>
     </td>
   </tr>
+  <tr>
+    <td><code>sut</code></td>
+    <td>Creates a variable for a subject under test.</td>
+    <td>
+    <pre lang='Java'>var sut = new |;</pre>
+    </td>
+  </tr>
+  <tr>
+    <td><code>gsut</code></td>
+    <td>Creates a test class field for a subject under test.<br/>
+        Enter points:<br/>
+        <ol>
+            <li>Tested class name</li>
+        </ol>
+    </td>
+    <td>
+    <pre lang='Java'>private final MyClass sut = new MyClass(|);</pre>
+    </td>
+  </tr>
 </table>
